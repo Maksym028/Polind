@@ -1,0 +1,122 @@
+.blocks{
+    height: 430px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+    .left_dark{
+        height: 400px;
+        background-image: url('../img/dark_left.png');
+        background-size: cover;
+    }
+    .zakopane{
+        width: 100%;
+        height: 400px;
+        background-image: url('../img/zakopne.png');
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+
+        :nth-of-type(1){
+            text-align: center;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            font-size: 30px;
+            color: #fff;
+        }
+
+        :nth-of-type(2){
+            text-align: center;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            color: #9d7b2d;
+            margin-bottom: 30px;
+        }
+        
+    }
+
+    .sandomierz{
+        width: 100%;
+        height: 400px;
+        background-image: url('../img/sandomirez.png');
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+
+        :nth-of-type(1){
+            text-align: center;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            font-size: 30px;
+            color: #fff;
+        }
+
+        :nth-of-type(2){
+            text-align: center;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            color: #9d7b2d;
+            margin-bottom: 30px;
+        }
+
+        .btn{
+            height: 50px;
+            width: 215px;
+            text-align: center;
+            border: 0;
+            border-radius: 20px;
+            background: #ffc74a;
+            color: #b98000;
+            text-transform: uppercase;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            font-size: 14px;
+            margin-bottom: 10px
+        }
+    }
+
+    .sopot{
+        width: 100%;
+        height: 400px;
+        background-image: url('../img/sopot.png');
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+
+        :nth-of-type(1){
+            text-align: center;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            font-size: 30px;
+            color: #fff;
+        }
+
+        :nth-of-type(2){
+            text-align: center;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            color: #9d7b2d;
+            margin-bottom: 30px;
+        }
+    }
+    .right_dark{
+        height: 400px;
+        background-image: url('../img/dark_right.png');
+        background-size: cover;
+    }
+
+}
+
+@media (max-width:773px){
+    .blocks{
+        display: none;
+    }
+}

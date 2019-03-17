@@ -1,0 +1,44 @@
+.sign{
+    width: 100vw;
+    height: 640px;
+    background-image: url('../img/sign.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    h1{
+        font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            font-size: 92px;
+            color: #fff;
+            margin-bottom: 30px;
+    }
+
+    button{
+        width: 150px;
+        height: 50px;
+        border: 0;
+        border-radius: 30px;
+        background: #ffc74a;
+        text-align: center;
+        text-transform: uppercase;
+        color: #b98000;
+        margin-bottom: 30px;
+    }
+    p{
+        font-family: 'Montserrat', sans-serif;
+            font-weight: 400;
+            font-size: 18.5px;
+            color: #a1a09e;
+            a{
+                color: #a1a09e;
+            }
+            a:hover{
+                color: #ffc74a;
+            }
+    }
+}
+

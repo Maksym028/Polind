@@ -1,0 +1,125 @@
+.city{
+    height: 900px;
+    width: 100vw;
+    background-image: url('../img/bg_city.png');
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    
+    .bg{
+        z-index: -1;
+        span{
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            font-size: 354.71px;
+            color: #fff;
+            float: right;
+            line-height: .8em;
+           
+        }
+    }
+
+    h1{
+        position: absolute;
+        font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            font-size: 30px;
+            color: #606f81; 
+            text-align: center;
+            left: 50%;
+            top: 5%;
+            transform: translate(-50%, -5%);
+    }
+
+    .content{
+        width: 70%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        .text{
+            width: 40vw;
+            h2{
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 700;
+                font-size: 36px;
+                color: #ffc74a;
+                margin-bottom: 30px;
+            }
+            p{
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 400;
+                font-size: 14px;
+                color: #a7aeb8;
+                margin-bottom: 30px;
+            }
+            input{
+                margin-top: 50px;
+                width: 215px;
+                height: 50px;
+                border: 0;
+                border-radius: 30px;
+                background: #ffc74a;
+                text-align: center;
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 700;
+                font-size: 14px;
+                text-transform: uppercase;
+                color: #be8504;
+
+            }
+        }
+
+        .photo{
+            width: 40vw;
+            float: right;
+         position: absolute;
+         top: 40%;
+         left: 90%;
+         transform: translate(-50%,-50%);
+            .picture{
+                height: 450px;
+                width: 450px;
+                background-image: url('../img/city.png');
+                background-size: cover;
+                background-position: center;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+            }
+            .squared{
+                position: absolute;
+                z-index: -1;
+                height: 450px;
+                width: 450px;
+                background: transparent;
+                border: 10px solid #ffc74a;
+                top: 45%;
+                left: 30%;
+                transform: translate(-30%,-45%);
+            }
+        }
+
+
+    }
+
+    @media (max-width:992px){
+        .photo{
+            display: none;
+        }
+    }
+
+    @media (max-width:767px){
+        .bg{
+            display: none;
+        }
+
+        .content{ 
+            top: 200%;
+        }
+        background-image: none;
+
+    }
+
+}

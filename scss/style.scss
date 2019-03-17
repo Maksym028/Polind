@@ -1,0 +1,19 @@
+@import 'header';
+@import 'fiveblock';
+@import 'search';
+@import 'city';
+@import 'sign';
+
+*{
+    box-sizing: border-box;
+}
+
+@media (max-width:768px){
+    .city{
+        display: none;
+    }
+
+    .search{
+      margin-bottom: 1400px; 
+    }
+}
